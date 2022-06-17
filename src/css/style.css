@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Regular.woff") format("woff");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Medium.woff") format("woff");
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Semibold.woff") format("woff");
+  font-display: swap;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Bold.woff") format("woff");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+img {
+  width: 100%;
+}
+
+.link {
+  display: inline-flex;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1;
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease-in-out
+}
+
+.link:hover{
+  color: yellow;
+}
+
+.list-reset {
+  list-style-type: none;
+}
+
+.btn-reset {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 24px 0;
+  width: 100%;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.burger {
+  position: relative;
+  border-radius: 100%;
+  padding: 15px;
+  width: 40px;
+  height: 40px;
+  background-color: #f5f6f7;
+}
+
+.burger-line {
+  position: absolute;
+  width: 20px;
+  left: 25%;
+  top: 50%;
+  display: inline-block;
+  height: 2px;
+  background-color: #000;
+}
+
+.second-line {
+  top: 13px;
+}
+
+.third-line {
+  top: 27px;
+}
+
+.hero {
+  padding-top: 189px;
+  padding-bottom: 100px;
+  min-height: 811px;
+  background-image: url("../img/hero-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-content {
+  max-width: 616px;
+  color: #fff;
+}
+
+.hero-subtitle {
+  display: inline-block;
+  margin-bottom: 22px;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.hero-title {
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 74px;
+}
+
+.hero-descr {
+  margin-bottom: 45px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.services{
+  padding: 150px 0;
+}
+
